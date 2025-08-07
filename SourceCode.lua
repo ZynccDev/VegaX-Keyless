@@ -1,4 +1,4 @@
--- 
+-- Roblox Studio and Exploit Supported (SOME FEATURES MAY NOT WORK ON STUDIO)
 
 local VegaXAndroidUI = {
 	VegaXAndroidUI = Instance.new("ScreenGui"),
