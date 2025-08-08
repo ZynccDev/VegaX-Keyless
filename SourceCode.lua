@@ -2283,7 +2283,7 @@ local function EIDAT_fake_script() -- VegaXAndroidUI.VegaXAndroidUI.EverythingEl
 	
 	script.Parent.ExecutorWindow.ExecuteB.MouseButton1Click:connect(function()
 		--print(script.Parent.ExecutorWindow.ScrollingBox.TextBox.Text)
-		executecode(script.Parent.ExecutorWindow.ScrollingBox.TextBox.Text)
+		loadstring(script.Parent.ExecutorWindow.ScrollingBox.TextBox.Text)()
 	end)
 	
 	script.Parent.ExecutorWindow.PasteandExecuteB.MouseButton1Click:connect(function()
