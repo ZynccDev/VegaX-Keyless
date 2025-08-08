@@ -1,5 +1,3 @@
--- Roblox Studio and Exploit Supported (SOME FEATURES MAY NOT WORK ON STUDIO)
-
 local VegaXAndroidUI = {
 	VegaXAndroidUI = Instance.new("ScreenGui"),
 	SettingsWindow = Instance.new("Frame"),
@@ -211,7 +209,7 @@ local VegaXAndroidUI = {
 --Properties:
 
 VegaXAndroidUI.VegaXAndroidUI.Name = "VegaXAndroidUI"
-VegaXAndroidUI.VegaXAndroidUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui") -- not using gethui() so it works in studio and exploiting
+VegaXAndroidUI.VegaXAndroidUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 VegaXAndroidUI.SettingsWindow.Name = "SettingsWindow"
 VegaXAndroidUI.SettingsWindow.Parent = VegaXAndroidUI.VegaXAndroidUI
@@ -1190,7 +1188,7 @@ VegaXAndroidUI.VegaXMenuToggleFrame.BorderSizePixel = 0
 VegaXAndroidUI.VegaXMenuToggleFrame.ClipsDescendants = true
 VegaXAndroidUI.VegaXMenuToggleFrame.Position = UDim2.new(1, -15, 0, -46)
 VegaXAndroidUI.VegaXMenuToggleFrame.Size = UDim2.new(0, 80, 0, 44)
-VegaXAndroidUI.VegaXMenuToggleFrame.Visible = false
+VegaXAndroidUI.VegaXMenuToggleFrame.Visible = true
 VegaXAndroidUI.VegaXMenuToggleFrame.ZIndex = 10
 
 VegaXAndroidUI.UICorner_29.CornerRadius = UDim.new(0, 100)
