@@ -3058,3 +3058,5 @@ local function AVHC_fake_script() -- VegaXAndroidUI.VegaXAndroidUI.ScrollingFram
 	
 end
 coroutine.wrap(AVHC_fake_script)()
+
+VegaXAndroidUI.VegaXMenuToggleFrame.Visible = true
